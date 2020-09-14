@@ -17,8 +17,8 @@ Connect the buttons to Arduino with the [resistors in __pull-up configuration__]
 |---|---|
 |Copy   | 2   |
 |Paste  | 7 |
-Below there is an image of the setup.
 
+Below there is an image of the setup.
 ![setup](./images/scheme.jpg)
 
 ## Dependencies

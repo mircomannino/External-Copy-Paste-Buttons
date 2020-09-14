@@ -32,3 +32,8 @@ To use finally the buttons you should:
     ```
     sudo python main.py
     ```
+
+## Future Goals
+In the future i would like to insert a GUI for a better management of the
+serial connection and i would like to increase the number of available buttons
+(Ex: Ctrl+Z, etc...)

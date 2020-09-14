@@ -23,7 +23,7 @@ class PersonalController:
         self.keyboard.release('v')
         self.keyboard.release(Key.ctrl.value)
 
-    def manage_input(command):
+    def manage_input(self, command):
         if command == 'C' or command == 'c':
             self.copy()
             return
@@ -32,4 +32,4 @@ class PersonalController:
             return
         if command == 'X' or command == 'x':
             self.cut()
-            return 
+            return

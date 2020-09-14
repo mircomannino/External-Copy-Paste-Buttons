@@ -18,19 +18,20 @@ Connect the buttons to Arduino with the [resistors in __pull-up configuration__]
 |Copy   | 2   |
 |Paste  | 7 |
 Below there is an image of the setup.
+
 ![setup](./images/scheme.jpg)
 
-## Usage
-### Dependencies
+## Dependencies
 * [pyserial](https://pythonhosted.org/pyserial/)
 * [pynput](https://pynput.readthedocs.io/en/latest/)
 
+## Usage
 To use finally the buttons you should:
 * Load the __arduino_control.ino__ sketch in your Arduino
 * Change some parameters (if you need to do some changes) in the __setup.py__ script.
 * Run the __main.py__ script:
     ```
-    sudo python main.py
+    python main.py
     ```
 
 ## Future Goals

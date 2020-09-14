@@ -12,14 +12,10 @@ if __name__ == '__main__':
     controller = PersonalController()
     print('Connected to: ', serial_port.name)
 
+    # Main part
     while True:
         command = serial_port.read().decode('ASCII')
-        if command == 'C':
-            controller.copy()
-            print('copied')
-        elif command == 'V':
-            controller.paste()
-            print('pasted')
+        controller.manage_input(command)
 
     # Close connection
     serial_port.close()

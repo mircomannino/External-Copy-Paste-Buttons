@@ -8,7 +8,7 @@ import os
 if __name__ == '__main__':
     # Setup
     port_name, baud_rate = load_setup_windows()
-    serial_port = serial.Serial('/dev/{}'.format(port_name), baudrate=baud_rate)
+    serial_port = serial.Serial(port_name, baudrate=baud_rate)
     controller = PersonalController()
     print('Connected to: ', serial_port.name)
 

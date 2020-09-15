@@ -7,7 +7,7 @@ import os
 
 if __name__ == '__main__':
     # Setup
-    port_name, baud_rate = load_setup()
+    port_name, baud_rate = load_setup_linux()
     os.system('sudo chmod 666 {}'.format(port_name))
     serial_port = serial.Serial('/dev/{}'.format(port_name), baudrate=baud_rate)
     controller = PersonalController()

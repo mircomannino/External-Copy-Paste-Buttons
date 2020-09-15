@@ -1,6 +1,6 @@
 from personal_controller import PersonalController
 from pynput.keyboard import Key, Controller
-from setup import load_setup
+from setup import load_setup_windows
 import time
 import serial
 import os

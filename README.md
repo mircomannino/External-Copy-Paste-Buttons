@@ -29,9 +29,13 @@ Below there is an image of the setup.
 To use finally the buttons you should:
 * Load the __arduino_control.ino__ sketch in your Arduino
 * Change some parameters (if you need to do some changes) in the __setup.py__ script.
-* Run the __main.py__ script:
+* Run the __main_linux.py__ script if your OS is Linux:
     ```
-    python main.py
+    python main_linux.py
+    ```
+* Run the __main_windows.py__ script if your OS is Windows:
+    ```
+    python main_windows.py
     ```
 
 ## Future Goals

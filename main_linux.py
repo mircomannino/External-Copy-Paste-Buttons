@@ -12,7 +12,7 @@ if __name__ == '__main__':
     serial_port = serial.Serial(port_name, baudrate=baud_rate)
     controller = PersonalController()
     print('Connected to: ', serial_port.name)
-
+    
     # Main part
     while True:
         command = serial_port.read().decode('ASCII')

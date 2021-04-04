@@ -1,5 +1,9 @@
 # External Copy & Paste Buttons
 
+## Final result
+The final result, with all soldering finished, is presented in the image below
+![final_result](./images/arduinoNanoSetup.jpg)
+
 ## Why?
 This simple project can help you to speed up your __copy & paste operations__. It allows you to use a single external button instead of using the boring classic key combinations such as _Ctrl+C_ or _Ctrl+V_.
 
